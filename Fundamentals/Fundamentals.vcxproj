@@ -120,6 +120,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Algorithms\Algorithms.cpp" />
+    <ClCompile Include="DataStructure\BinarySearchTree\BinarySearchTree.cpp" />
     <ClCompile Include="DataStructure\LinkedList\LinkedList.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Sorting\Sorting.cpp" />
