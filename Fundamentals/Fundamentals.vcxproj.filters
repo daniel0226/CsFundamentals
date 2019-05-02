@@ -27,10 +27,13 @@
     <ClCompile Include="DataStructure\LinkedList\LinkedList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Algorithms\Algorithms.cpp">
+    <ClCompile Include="DataStructure\BinarySearchTree\BinarySearchTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DataStructure\BinarySearchTree\BinarySearchTree.cpp">
+    <ClCompile Include="Algorithms\AlgorithmsDataStructure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\DynamicProgramming.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

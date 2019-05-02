@@ -119,7 +119,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Algorithms\Algorithms.cpp" />
+    <ClCompile Include="Algorithms\AlgorithmsDataStructure.cpp" />
+    <ClCompile Include="Algorithms\DynamicProgramming.cpp" />
     <ClCompile Include="DataStructure\BinarySearchTree\BinarySearchTree.cpp" />
     <ClCompile Include="DataStructure\LinkedList\LinkedList.cpp" />
     <ClCompile Include="main.cpp" />
