@@ -36,7 +36,7 @@ void Sorting::beginSort()
 		sortMethod = helperTool.getIntInput(SortMessage, true);
 		switch (sortMethod)
 		{
-		case 0:
+		case INVALID_INPUT:
 			std::cout << "Invalid input." << std::endl;
 			break;
 		case 1:

@@ -1,4 +1,5 @@
 #include "yhk.h"
+#ifndef Sorting_H
 
 #define SortMessage "1: HeapSort, 2: MergeSort, 3: QuickSort, 4:Quit"
 #define SortQuit 4
@@ -35,3 +36,5 @@ private:
 	int sortMethod;
 	int length;
 };
+
+#endif

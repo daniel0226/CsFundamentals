@@ -4,7 +4,12 @@
 // Definitions
 #define yhk_h
 #define MAX_SIZE 1000
-#define MESSAGE "1: Sorting, "
+#define MAIN_MESSAGE "MAIN MENU - 1: Sorting, 2: Linked Lists, 3: Binary Search Trees, 4: Algorithms "
+#define NEWLINE std::cout << std::endl;
+#define QUIT 0
+#define INVALID_INPUT 99
+#define START_COMMANDS 200149907
+#define LIST_MESSAGE "Insert new Linked List Node value."
 
 // Input/Output
 #include <iostream>

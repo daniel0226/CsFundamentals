@@ -8,7 +8,7 @@ int yhk::getIntInput(std::string message, bool newLine)
 
 	if (!(std::cin >> numInput))
 	{
-		return 0;
+		return INVALID_INPUT;
 	}
 	else
 	{

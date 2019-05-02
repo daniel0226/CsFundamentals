@@ -70,7 +70,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)Header;$(ProjectDir)Sorting;$(ProjectDir)Tools</IncludePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)Header;$(ProjectDir)Sorting;$(ProjectDir)Tools;$(ProjectDir)DataStructure\LinkedList;$(ProjectDir)DataStructure\BinarySearchTree</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;$(ProjectDir)Header;$(ProjectDir)Sorting;$(ProjectDir)Tools;$(ProjectDir)DataStructure\LinkedList;$(ProjectDir)DataStructure\BinarySearchTree</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -78,6 +79,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Header;$(ProjectDir)Sorting;$(ProjectDir)DataStructure\LinkedList;$(ProjectDir)DataStructure\BinarySearchTree</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -117,12 +119,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Algorithms\Algorithms.cpp" />
+    <ClCompile Include="DataStructure\LinkedList\LinkedList.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Sorting\Sorting.cpp" />
     <ClCompile Include="Tools\yhk.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Header\Algorithms.h" />
+    <ClInclude Include="Header\BinarySearchTree.h" />
+    <ClInclude Include="Header\LinkedList.h" />
+    <ClInclude Include="Header\ListNode.h" />
     <ClInclude Include="Header\Sorting.h" />
+    <ClInclude Include="Header\TreeNode.h" />
     <ClInclude Include="Header\yhk.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
